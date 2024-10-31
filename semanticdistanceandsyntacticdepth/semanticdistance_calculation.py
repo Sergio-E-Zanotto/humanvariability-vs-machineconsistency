@@ -11,7 +11,7 @@ from nltk.tokenize import sent_tokenize
 sentence_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 # Load the dataset
-df = pd.read_csv("/home/scc/sergio.zanotto/bin/HumanvsAI/lingfeat/AivsHUman_with_emotion_scores.csv", encoding="UTF-8")
+df = pd.read_csv("Official_AivsHuman.csv", encoding="UTF-8")
 print("DataFrame loaded successfully.")
 
 # Function to compute semantic distance using sentences
