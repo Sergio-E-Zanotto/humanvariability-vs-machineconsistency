@@ -38,7 +38,7 @@ print("Libraries imported successfully.")
 print("Libraries imported successfully.")
 
 # Path to the uploaded JSONL file
-file_path = '/home/scc/sergio.zanotto/bin/HumanvsAI/SubtaskB/subtaskB_train.jsonl'
+file_path = 'subtaskB_train.jsonl'
 
 # Initialize lists to hold the data
 texts = []
@@ -139,6 +139,6 @@ Official_df = pd.concat([df, final_df], axis=1)
 
 print("DataFrames concatenated successfully.")
 
-Official_df.to_csv("AivsHUman.csv", header=True, index=False)
+Official_df.to_csv("Official_AivsHuman.csv", header=True, index=False)
 
 print("CSV file created successfully.")
