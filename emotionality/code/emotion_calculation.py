@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv("AivsHUman_sem.csv", encoding="UTF-8")
+df = pd.read_csv("Official_AivsHuman.csv", encoding="UTF-8")
 print("DataFrame loaded successfully.")
 
 # Load the NRC Emotion Intensity Lexicon
